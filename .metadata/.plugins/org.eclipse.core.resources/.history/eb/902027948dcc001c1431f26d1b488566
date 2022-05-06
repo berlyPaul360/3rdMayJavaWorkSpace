@@ -1,0 +1,16 @@
+
+public class LarsenTurbo implements SafetyGuidlines2021{
+
+	@Override
+	public void protectHead() {
+		// TODO Auto-generated method stub
+		System.out.println("fiber helmets used");
+	}
+
+	@Override
+	public void protectFeet() {
+		// TODO Auto-generated method stub
+		System.out.println("fiber shoes used");
+	}
+
+}

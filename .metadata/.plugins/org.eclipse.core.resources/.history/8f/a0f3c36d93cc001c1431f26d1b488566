@@ -1,0 +1,11 @@
+package dao;
+
+import model.ProductPojo;
+
+public interface ProductDao {
+	
+	//4 CRUD Methods 
+	ProductPojo addProduct(ProductPojo productPojo);
+	
+
+}

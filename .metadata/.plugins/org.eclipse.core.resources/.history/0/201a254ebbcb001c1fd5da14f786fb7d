@@ -1,0 +1,13 @@
+
+public class RoomArrayDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Room myRoom = new Room(500,300,100);
+		
+		Room[] allRooms = new Room[3];// here array of 3 room references is created
+		
+		System.out.println(allRooms[0].length);
+	}
+
+}

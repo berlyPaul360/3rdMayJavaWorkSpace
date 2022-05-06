@@ -1,0 +1,22 @@
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+public class CalculatorTest {
+	
+	//test methods
+	@Test
+	public void testAdditionPositive(){
+		
+		Calculator calc = new Calculator();
+		//actual output
+		int actualOutput = calc.addition(4, 3);
+		
+		//expected output
+		int expectedOutput = 7;
+		
+		//check if expected output is equal to actual output
+		assertEquals(expectedOutput, actualOutput);
+	}
+
+}
